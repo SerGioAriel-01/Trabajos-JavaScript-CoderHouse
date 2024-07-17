@@ -1,0 +1,26 @@
+.nav-items{
+    font-size: larger !important;
+}
+
+.nav-items:hover{
+    transition: 0.3s;
+    color: aqua !important;
+}
+
+.texto-img{
+    color: white !important;
+}
+
+.texto-img:hover{
+    transition: 0.3s;
+    color: aqua !important;
+}
+
+.footer-iconos{
+    color: white;
+    margin: 10px;
+}
+
+.footer-iconos:hover{
+    color: aqua !important;
+}
