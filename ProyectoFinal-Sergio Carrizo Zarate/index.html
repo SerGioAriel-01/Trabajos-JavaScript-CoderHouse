@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calificaciones de Alumnos</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="my-4">Calificaciones de Alumnos</h1>
+        
+        <form id="alumnoForm" class="mb-4">
+            <div class="form-group">
+                <label for="nombre">Nombre del Alumno:</label>
+                <input type="text" id="nombre" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="nota1">Nota 1 (0 al 10):</label>
+                <input type="number" id="nota1" class="form-control" min="0" max="10" required>
+            </div>
+            <div class="form-group">
+                <label for="nota2">Nota 2 (0 al 10):</label>
+                <input type="number" id="nota2" class="form-control" min="0" max="10" required>
+            </div>
+            <div class="form-group">
+                <label for="nota3">Nota 3 (0 al 10):</label>
+                <input type="number" id="nota3" class="form-control" min="0" max="10" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Agregar Alumno y Calcular nota Final</button>
+        </form>
+
+        <div class="form-group">
+            <label for="buscador">Buscar Alumno:</label>
+            <input type="text" id="buscador" class="form-control" placeholder="Escriba el nombre del alumno">
+        </div>
+        
+        <div id="resultados"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+    <script src="./script/index.js"></script>
+</body>
+</html>

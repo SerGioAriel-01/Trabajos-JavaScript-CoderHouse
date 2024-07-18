@@ -1,0 +1,37 @@
+[
+    {
+        "nombre": "Juan Pérez",
+        "notaFinal": "8.50",
+        "condicion": "Aprobado"
+    },
+    {
+        "nombre": "Ana García",
+        "notaFinal": "5.00",
+        "condicion": "Desaprobado"
+    },
+    {
+        "nombre": "Sergio Carrizo",
+        "notaFinal": "10.00",
+        "condicion": "Aprobado"
+    },
+    {
+        "nombre": "Jorge Cerda",
+        "notaFinal": "5.00",
+        "condicion": "Desaprobado"
+    },
+    {
+        "nombre": "Cabrera Abel",
+        "notaFinal": "6.00",
+        "condicion": "Aprobado"
+    },
+    {
+        "nombre": "Cristian Cerda",
+        "notaFinal": "2.00",
+        "condicion": "Desaprobado"
+    },
+    {
+        "nombre": "Misael Gordillo",
+        "notaFinal": "7.00",
+        "condicion": "Aprobado"
+    }
+]
